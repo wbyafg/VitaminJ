@@ -60,7 +60,7 @@ ___  ___     ___     __   ___       __
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
-                <ul class="nav nav-sidebar">
+                <ul class="nav nav-sidebar" id="nav-sidebar">
                     <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Overview <span class="sr-only">(current)</span></a>
                     </li>
                     <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Apply Leave</a>
@@ -81,18 +81,34 @@ ___  ___     ___     __   ___       __
 /  ` /  \ |\ |  |  |__  |\ |  |     |__| |__  |__) |__  
 \__, \__/ | \|  |  |___ | \|  |     |  | |___ |  \ |___ 
 -->
+                <table class="table table-hover table-striped">
+                    <caption>Optional Table Caption</caption>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Leave Type</th>
+                            <th>Duration</th>
+                            <th>Application Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+
+                </table>
             </div>
         </div>
     </div>
 
     <div class="navbar navbar-default navbar-fixed-bottom">
-        <p class="text-center text-muted" id="copyRightInfo">&copy; LAPS All Right Reserved</p>
+        <p class="text-center text-muted" id="copyRightInfo">&copy; LAPS All Right Reserved. NUS ISS Team 09</p>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="../dashboard/staff_script.js"></script>
 </body>
 
 </html>
