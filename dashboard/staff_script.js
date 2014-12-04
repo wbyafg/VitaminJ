@@ -31,5 +31,20 @@ $(document).ready(function () {
             });
         });
 
+    // add Employee Leave History form at real time
+    $(".nav-sidebar li:contains('Employee Leave History')").click(
+        function () {
+            $.get("dashboardOperationalElement/empolyeeLeaveHistory.html", function (data) {
+                $('#operational-area').html(data);
+            });
+        });
+
+    // add Applications for Approval form at real time
+    $(".nav-sidebar li:contains('Applications for Approval')").click(
+        function () {
+            $.get("dashboardOperationalElement/empolyeeLeaveHistory.html", function (data) {
+                $('#operational-area').html(data);
+            });
+        });
 
 });
